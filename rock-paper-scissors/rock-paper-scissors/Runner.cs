@@ -8,6 +8,7 @@ public class Runner : IRunner
 {
     public Task RunAsync()
     {
+        Console.WriteLine("Welcome to the game.");
         GameDecision gameDecision = new();
 
         var gameResult = new GameResult();
